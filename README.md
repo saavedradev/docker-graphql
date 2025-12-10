@@ -71,3 +71,9 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Create image in localhost
+docker build -t saavedradev/docker-graphql:0.0.1 .     
+
+## Start localhost container in 3000 port
+docker container run -p 3000:3000 docker-graphql:0.0.1   
